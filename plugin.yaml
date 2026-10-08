@@ -1,0 +1,14 @@
+{
+  "name": "acedatacloud-seedance",
+  "version": "1.0.0",
+  "description": "Seedance 2.0 Mini text-to-video and first-frame animation through your Ace Data Cloud account.",
+  "author": "AceDataCloud",
+  "requires_hermes": ">=0.21.6",
+  "provides_tools": [
+    "acedata_seedance_generate",
+    "acedata_seedance_task"
+  ],
+  "requires_env": [
+    "ACEDATACLOUD_API_KEY"
+  ]
+}
