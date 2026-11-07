@@ -1,0 +1,36 @@
+{
+  "canonical_repository": "https://github.com/AceDataCloud/AceDataCloudMediaHermes",
+  "canonical_commit": "230d90061406b57d50624b6772c3072ba4da9545",
+  "generator": "scripts/export_service.py",
+  "service": "seedance",
+  "consumer_repository": "https://github.com/AceDataCloud/SeedanceHermes",
+  "canonical_contract": "services/seedance.json",
+  "identity_map": {
+    "tool_prefix": [
+      "acedatacloud_seedance",
+      "acedatacloud_single_seedance"
+    ],
+    "toolset": [
+      "acedatacloud-seedance",
+      "acedatacloud-single-seedance"
+    ],
+    "native_image_provider": null
+  },
+  "transport_sha256": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+  "canonical_operation_sha256": "f6a066beed6b95697183ad94158daa24454baefae2a0fa16186edf14e3d1852a",
+  "generated_files": {
+    "__init__.py": "9d51d110361ab2acec5c3561cb500e6545ccce8541b97aa4557b4cea73d13712",
+    "client.py": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+    "image_provider.py": "183dc1f72fa1905364466aa30da14d82c074d3484ee6a6a6a5b739a62342490c",
+    "services/seedance.json": "fd5881901c0a207b48796162ff807f7414a22b0deb77db522d6f903268ef7ec7",
+    "plugin.yaml": "8e83283f5bfd46c91e88010cba46eb6e792efe116462904672321a783f4d48f3",
+    "tests/test_contracts.py": "fa834427da679d6abb5a4a697f2d8a5ea18fcd9589aef7cb7077c3ebf5ff7dd3",
+    "tests/test_registration.py": "b43832ba1897fac0d0c6e26732c74408e1e74750775195cbe7d2e5cdcf31446b",
+    "tests/test_source_profile.py": "dbe36c636c4d9c6cbc05099305adeb69c36ed5c15c9cc547b610f17bb78b881d",
+    "scripts/check_runtime.py": "be594c81cf4436cc9689babae0344815268aab33345afc391221079be151e90f",
+    "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
+    ".github/workflows/validate.yml": "90d00b9c9135b45afbc9ce66e5df3606a903fe7dcd36b0a62e27086961b4b632",
+    "README.md": "e57730b8be675e9caa9187624340f29a480acfc9c700a6a4060f3de6e4f9b6dc",
+    "readme/README_zh_Hans.md": "0a5941ed1b6fa3e6a7b5adfdcfba67d04ac7b3ab1a3c20864bdc6d5a695129da"
+  }
+}
